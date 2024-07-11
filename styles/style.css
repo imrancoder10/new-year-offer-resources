@@ -206,7 +206,7 @@ body {
 /* coming soon section start */
 .coming-section {
     height: 400px;
-    margin-bottom: 120px;
+    margin-bottom: 70px;
     /* background-color: red; */
     display: flex;
     justify-content: space-evenly;
@@ -294,7 +294,7 @@ body {
     width: 550px;
     height: 260px;
     /* background-color: red; */
-    margin: 0 auto 130px auto;
+    margin: 0 auto 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -314,10 +314,12 @@ body {
     font-weight: 900;
     line-height: 80px;
 }
-.holiday-title>span{
+
+.holiday-title>span {
     color: red;
 }
-.holiday-para{
+
+.holiday-para {
     font-size: 12px;
     font-weight: 500;
     opacity: 0.7;
@@ -325,3 +327,47 @@ body {
 }
 
 /* holidays section end  */
+/* discount section start */
+
+.discount-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.gift-box {
+    height: 205px;
+    text-align: center;
+
+}
+
+.gift-box>img {
+    position: relative;
+    top: -40px;
+    right: -80px;
+    width: 700px;
+    height: 500px;
+    text-align: right;
+
+}
+
+.circle-gift {
+    width: 40%;
+}
+.circle-gift>img {
+    position: relative;
+    top: 2px;
+    right: -100px;
+}
+
+.background-img-red {
+    height: 250px;
+    background-image: url("../images/Rectangle\ 2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+/* discount section end */
